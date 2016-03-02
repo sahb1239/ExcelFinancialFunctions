@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>@project@</id>
-    <version>@build.number@</version>
-    <authors>@authors@</authors>
-    <owners>@authors@</owners>
+    <id>SAHB.ExcelFinancialFunctions</id>
+    <version>$version$</version>
+    <authors>Luca Bolognese</authors>
+    <owners>Luca Bolognese</owners>
     <licenseUrl>http://github.com/fsprojects/ExcelFinancialFunctions/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://fsprojects.github.io/ExcelFinancialFunctions</projectUrl>
     <iconUrl>https://raw.github.com/fsprojects/ExcelFinancialFunctions/master/docs/files/img/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>@summary@</summary>
-    <description>@description@</description>
-    <releaseNotes>@releaseNotes@</releaseNotes>
-    <copyright>Copyright 2014</copyright>
-    <tags>@tags@</tags>
+    <summary>A .NET library that provides the full set of financial functions from Excel.</summary>
+    <description>The main goal for the library is compatibility with Excel by providing the same functions, with the same behaviour.
+  This is not a wrapper over the Excel library, so you do not need to have Excel installed to use this library.</description>
+    <copyright>Copyright 2016</copyright>
     <dependencies />
   </metadata>
   <files>
