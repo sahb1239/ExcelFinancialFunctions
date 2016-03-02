@@ -116,11 +116,12 @@ Target "Release" DoNothing
 Target "All" DoNothing
 
 "Clean"
+  ==> "AssemblyInfo"
   ==> "RestorePackages"
   ==> "Build"
   ==> "NuGet"
   ==> "All"
-//  ==> "AssemblyInfo"
+//  
 
 
 "All" 
